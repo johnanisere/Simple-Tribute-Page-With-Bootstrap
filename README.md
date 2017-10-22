@@ -1,2 +1,2 @@
 # Simple-Tribute-Page-With-Bootstrap
-![hhh](/Tribute To Obasanjo.png)
+![hhh](Tribute To Obasanjo.png)
