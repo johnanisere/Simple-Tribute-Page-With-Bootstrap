@@ -1,0 +1,233 @@
+body{
+	position:relative;
+	overflow-x:hidden;
+	font-family: 'Varela Round', sans-serif !important;
+}
+.floating-cont {
+	position: absolute;
+	margin-top: 14em;
+	margin-left:0;
+	margin-right: 0;
+	display: block;
+	height:24.5em;
+	width:100%;
+}
+.floating-two{
+	position: absolute;
+	margin:-2px 0 0 -2px;
+	display: block;
+	height:24.5em;
+	right:0;
+}
+#space-c{
+	display: block;
+	height:24.5em;
+}
+
+.vertim{
+	position: absolute;
+	display:block;
+	width:10em;
+	right:0;
+	height:114.8em; 
+	margin-top:14em;
+}
+.top-lefty{
+	display:inline-block;
+	height: 38.5em;
+}
+.lefty{
+	height:90.5em;
+	color: white;
+}
+.left-side{
+	background-color: #1C2833;
+}
+
+.vertim p{
+ transform: rotate(-90deg);
+ font-size:12px;
+ margin-top: 170px;
+ width:210px;
+ color:white;
+}
+
+.vertim{ 
+	padding-right: 100px 200px;
+	background-color: #1C2833;
+ }
+ .foott{
+		display: none;
+	}
+.pica{
+	background-image:url("../img/Olusegun-Obasanjo-NEW.jpg");
+	background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-position:center center;
+	background-repeat: no-repeat;
+	opacity: 0.6%;
+	filter:alpha(opacity=60);
+	height: 20.8em;
+	background-color:rgba(229,229,229,0.6);
+}
+.mid-cont{
+	background-color:rgba(229,229,229,0.6);
+	font-size:12px;
+	height: 24.4em;
+}
+
+dd{
+	font-size:12px;
+	line-height: 2.0em;
+}
+dt{
+	line-height:2.0em;
+}
+
+
+@media(max-width:5000px){
+	.floating-cont, .vertim {
+		margin-top: 10.2em;
+	}
+	.vertim{
+		height:119.5em;
+	}
+
+	}
+
+@media(max-width:3000px){
+	.floating-cont, .vertim {
+		margin-top: 12.2em;
+	}
+	.vertim{
+		height:116.8em;
+	}
+
+	}
+@media(max-width: 2652px){
+	.floating-cont, .vertim {
+		margin-top: 12.2em;
+	}
+	.vertim{
+		height:116.8em;
+	}
+
+	}
+
+@media(max-width:1855px ){
+	.floating-cont, .vertim {
+		margin-top: 14.2em;
+	}
+	.vertim{
+		height:114.8em;
+	}
+
+	}
+
+
+@media(max-width: 1326px){
+	.floating-cont, .vertim {
+		margin-top: 15.9em;
+	}
+	.top-lefty{
+		height: 40.3em;
+	}
+	.lefty{
+		height:93.1em;
+	}
+
+	.vertim{
+		height:117.5em;
+	}
+}
+
+@media(max-width: 1238px){
+	.floating-cont, .vertim {
+		margin-top: 15.9em;
+	}
+	.top-lefty{
+		height: 40.3em;
+	}
+	.lefty{
+		height:93.1em;
+	}
+
+	.vertim{
+		height:117.5em;
+	}
+
+}
+
+@media(max-width: 1038px){
+	.floating-cont, .vertim {
+		margin-top: 17.7em;
+	}
+	.top-lefty{
+		height: 42.2em;
+	}
+	.lefty{
+		height:97.5em;
+	}
+
+	.vertim{
+		height:122em;
+	}
+}
+
+@media(max-width: 1024px){
+	.floating-cont, .vertim {
+		margin-top: 17.6em;
+	}
+	.top-lefty{
+		height: 42.1em;
+	}
+	.lefty{
+		height:97.7em;
+	}
+
+	.vertim{
+		height:122.2em;
+	}
+
+}
+
+@media(max-width:1012px){
+	.vertim, .top-lefty, .floating-cont, .floating-two{
+		display:none;
+	}
+
+	.lefty{
+		height:142.2em;
+	}
+	#space-c{
+		background-image:url(../img/Olusegun-Obasanjo-NEW.jpg);
+		background-repeat: no-repeat;
+		background-size:100%;
+	}
+	.foott{
+		display: block;
+	}
+
+}
+@media(max-width:991px){
+	.vertim, .top-lefty, .floating-cont, .floating-two{
+		display:none;
+	}
+	.lefty{
+		height:88.2em;
+	}
+	#space-c{
+		background-image:url(../img/Olusegun-Obasanjo-NEW.jpg);
+		background-repeat: no-repeat;
+		background-size:100%;
+	}
+	.foott{
+		display: block;
+	}
+
+}
+
+
+
