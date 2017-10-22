@@ -1,2 +1,3 @@
 # Simple-Tribute-Page-With-Bootstrap
-![hhh](Tribute To Obasanjo.png)
+![GitHub Logo](Simple-Tribute-Page-With-Bootstrap/Tribute To Obasanjo.png)
+Format: ![Alt Text](url)
